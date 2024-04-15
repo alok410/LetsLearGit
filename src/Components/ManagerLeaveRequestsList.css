@@ -1,0 +1,69 @@
+.manager-leave-requests-list-container {
+  margin: 20px;
+}
+
+.manager-leave-requests-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.manager-leave-requests-table th,
+.manager-leave-requests-table td {
+  border: 1px solid #ddd;
+
+  padding: 8px;
+  text-align: left;
+}
+
+.manager-leave-request-item {
+  list-style-type: none;
+}
+
+.manager-leave-request-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-head{
+  background-color: blue;
+  color: white;
+}
+.heading {
+  display: flex;
+  font-size: 20px;
+}
+
+.pending_Icon {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  cursor: pointer;
+}
+.left{
+  display: flex;
+  margin-left: auto;
+}
+.left-Ico {
+  display: flex;
+}
+
+.count {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -3px;
+  margin-left: -12px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}
+
+.approved {
+  background-color: lightgreen;
+}
+
+.denied {
+  background-color: tomato;
+}

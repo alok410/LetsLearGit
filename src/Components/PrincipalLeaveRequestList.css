@@ -1,0 +1,51 @@
+/* For the left heading */
+.left-heading-font {
+    display: flex;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* For the clock icon */
+.left-pending_Icon {
+    height: 40px;
+    width: 40px;
+}
+
+/* For the container of clock icon and count */
+.left-left-Ico {
+    display: flex;
+}
+
+/* For the container of count */
+.left-All {
+    display: flex;
+    margin-left: auto;
+}
+
+/* For the count number */
+.left-count {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+    margin-left: -12px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 14px;
+    background-color: red;
+    text-decoration: none;
+    color: white ;
+}
+
+/* Style for approved requests */
+.manager-leave-requests-table tbody tr.approved {
+    background-color: lightgreen;
+}
+
+/* Style for denied requests */
+.manager-leave-requests-table tbody tr.denied {
+    background-color: tomato;
+}

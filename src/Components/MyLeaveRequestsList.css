@@ -1,0 +1,43 @@
+.leave-requests-list-container {
+  margin: 20px;
+}
+
+.list-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.leave-requests-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leave-requests-table th,
+.leave-requests-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style for pending requests */
+.leave-requests-table tbody tr.pending {
+  background-color: #ccc; /* Grey background */
+}
+
+/* Style for approved requests */
+.leave-requests-table tbody tr.approved {
+  background-color: lightgreen; /* Green background */
+}
+
+/* Style for denied requests */
+.leave-requests-table tbody tr.denied {
+  background-color: tomato; /* Red background */
+}
+
+.leave-request-item {
+  list-style-type: none;
+}
+
+.leave-request-item:nth-child(even) {
+  background-color: #f2f2f2;
+}
